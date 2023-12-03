@@ -24,3 +24,10 @@ Scenario: Testando o JSON do personagem Scary Terry
     Given path 'api/character/306'
     When method get
     And match response.name == 'Scary Terry'
+
+Scenario: Testando o retorno e verificando o JSON
+    Given path 'api/character/532'
+    When method get
+    Then status 200
+    And match response.name == "Tony's Wife"
+    And match response.id == 532
