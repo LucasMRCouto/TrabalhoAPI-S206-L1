@@ -27,7 +27,7 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
   5) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
 
     R:
-  6) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+  6) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
       
     R: Para os testes funcionarem em regressao, precisa executar todas as suítes de testes desenvolvidas e já verificadas.
 
