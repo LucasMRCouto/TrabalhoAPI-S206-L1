@@ -14,7 +14,7 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
 ## Exercício 2
   1) Quantas suítes de testes você desenvolveu?
      
-    R:
+    R: Foi utilizada uma suíte de teste com 6 cenários sendo 2 deles negativos. 
   2) Os testes desenvolvidos são manuais ou automatizados?
 
     R: Foram desenvolvidos testes automatizados, 
