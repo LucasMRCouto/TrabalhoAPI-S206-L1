@@ -17,7 +17,7 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
     R: Foi utilizada uma suíte de teste com 6 cenários, sendo 2 deles negativos. 
   2) Os testes desenvolvidos são manuais ou automatizados?
 
-    R: Foram desenvolvidos testes automatizados, 
+    R: Esse tipo de teste é automatizado, ele é realizado através de scripts de testes executáveis através dos cenários criados.
   3) Onde os testes se localizam na pirâmide apresentada?
 
     R: Esses testes estão localizados na parte de Testes De Integração.
