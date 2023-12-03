@@ -12,5 +12,5 @@ mvn test -Dtest=RMRunner
 Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206\target\karate-reports\Projeto.rickMorty.html".
 
 ## Exercício 2
--1) Quantas suítes de testes você desenvolveu?
+- 1) Quantas suítes de testes você desenvolveu?
     --Foram desenvolvidos 6 casos de teste.
