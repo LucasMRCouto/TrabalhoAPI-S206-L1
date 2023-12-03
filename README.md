@@ -29,6 +29,6 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
     R:
   6) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
       
-    R:
+    R: Para os testes funcionarem em regressao, precisa executar todas as suítes de testes desenvolvidas e já verificadas.
 
 
