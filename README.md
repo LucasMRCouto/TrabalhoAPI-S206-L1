@@ -13,7 +13,7 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
 
 ## Exercício 2
 - 1) Quantas suítes de testes você desenvolveu?
-     R:
+-    R:
   3) Os testes desenvolvidos são manuais ou automatizados?
   4) Onde os testes se localizam na pirâmide apresentada?
   5) Os testes desenvolvidos são funcionais ou não-funcionais?
