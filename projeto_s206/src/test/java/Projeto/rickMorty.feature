@@ -19,3 +19,10 @@ Scenario: Tentando obter informacoes de uma localizacao inexistente
     When method get
     Then status 404
     And match response == {"error":"Location not found"}
+
+Scenario: Teste
+    Given path 'api/character/532'
+    When method get
+    Then status 200
+    And match response.name == "Tony's Wife"
+    And match response.id == 532
