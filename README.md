@@ -23,7 +23,7 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
     R: Esses testes estão localizados na parte de Testes De Integração.
   4) Os testes desenvolvidos são funcionais ou não-funcionais?
 
-    R:
+    R: Os testes desenvolvidos são funcionais, porque testes funcionais confirmam que o sistema faz o que os usuários esperam.
   5) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
 
     R:
