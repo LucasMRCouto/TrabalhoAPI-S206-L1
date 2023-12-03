@@ -20,8 +20,8 @@
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit5</artifactId>
             <version>${karate.version}</version>
-            <scope>test</scope>
-        </dependency>		
+            <scope>Projeto</scope>
+        </dependency>
     </dependencies>
 
     <build>

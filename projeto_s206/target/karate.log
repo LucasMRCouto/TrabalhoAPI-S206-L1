@@ -687,3 +687,149 @@ classpath:Projeto/rickMorty.feature:33
 1 < X-Nf-Request-Id: 01HGRFBW3ESVH0EFA8JNYM52V5
 1 < X-Powered-By: Express
 {"created":"2017-11-18T11:39:52.165Z","name":"Gromflom Prime","residents":[],"id":19,"type":"Planet","dimension":"Replacement Dimension","url":"https:\/\/rickandmortyapi.com\/api\/location\/19"}
+15:45:33.639 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:45:34.238 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:34.516 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/1
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:34.729 [main] DEBUG com.intuit.karate - response time in milliseconds: 191
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2903
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:45:34 GMT
+1 < Etag: W/"a9f-I68Cx5oSPFclkl+Wy2Fr9jNsFS8"
+1 < Expires: Wed, 06 Dec 2023 17:57:11 GMT
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRG020W8W292700D2KTVPSR
+1 < X-Powered-By: Express
+{"image":"https:\/\/rickandmortyapi.com\/api\/character\/avatar\/1.jpeg","gender":"Male","species":"Human","created":"2017-11-04T18:48:46.250Z","origin":{"name":"Earth (C-137)","url":"https:\/\/rickandmortyapi.com\/api\/location\/1"},"name":"Rick Sanchez","location":{"name":"Citadel of Ricks","url":"https:\/\/rickandmortyapi.com\/api\/location\/3"},"episode":["https:\/\/rickandmortyapi.com\/api\/episode\/1","https:\/\/rickandmortyapi.com\/api\/episode\/2","https:\/\/rickandmortyapi.com\/api\/episode\/3","https:\/\/rickandmortyapi.com\/api\/episode\/4","https:\/\/rickandmortyapi.com\/api\/episode\/5","https:\/\/rickandmortyapi.com\/api\/episode\/6","https:\/\/rickandmortyapi.com\/api\/episode\/7","https:\/\/rickandmortyapi.com\/api\/episode\/8","https:\/\/rickandmortyapi.com\/api\/episode\/9","https:\/\/rickandmortyapi.com\/api\/episode\/10","https:\/\/rickandmortyapi.com\/api\/episode\/11","https:\/\/rickandmortyapi.com\/api\/episode\/12","https:\/\/rickandmortyapi.com\/api\/episode\/13","https:\/\/rickandmortyapi.com\/api\/episode\/14","https:\/\/rickandmortyapi.com\/api\/episode\/15","https:\/\/rickandmortyapi.com\/api\/episode\/16","https:\/\/rickandmortyapi.com\/api\/episode\/17","https:\/\/rickandmortyapi.com\/api\/episode\/18","https:\/\/rickandmortyapi.com\/api\/episode\/19","https:\/\/rickandmortyapi.com\/api\/episode\/20","https:\/\/rickandmortyapi.com\/api\/episode\/21","https:\/\/rickandmortyapi.com\/api\/episode\/22","https:\/\/rickandmortyapi.com\/api\/episode\/23","https:\/\/rickandmortyapi.com\/api\/episode\/24","https:\/\/rickandmortyapi.com\/api\/episode\/25","https:\/\/rickandmortyapi.com\/api\/episode\/26","https:\/\/rickandmortyapi.com\/api\/episode\/27","https:\/\/rickandmortyapi.com\/api\/episode\/28","https:\/\/rickandmortyapi.com\/api\/episode\/29","https:\/\/rickandmortyapi.com\/api\/episode\/30","https:\/\/rickandmortyapi.com\/api\/episode\/31","https:\/\/rickandmortyapi.com\/api\/episode\/32","https:\/\/rickandmortyapi.com\/api\/episode\/33","https:\/\/rickandmortyapi.com\/api\/episode\/34","https:\/\/rickandmortyapi.com\/api\/episode\/35","https:\/\/rickandmortyapi.com\/api\/episode\/36","https:\/\/rickandmortyapi.com\/api\/episode\/37","https:\/\/rickandmortyapi.com\/api\/episode\/38","https:\/\/rickandmortyapi.com\/api\/episode\/39","https:\/\/rickandmortyapi.com\/api\/episode\/40","https:\/\/rickandmortyapi.com\/api\/episode\/41","https:\/\/rickandmortyapi.com\/api\/episode\/42","https:\/\/rickandmortyapi.com\/api\/episode\/43","https:\/\/rickandmortyapi.com\/api\/episode\/44","https:\/\/rickandmortyapi.com\/api\/episode\/45","https:\/\/rickandmortyapi.com\/api\/episode\/46","https:\/\/rickandmortyapi.com\/api\/episode\/47","https:\/\/rickandmortyapi.com\/api\/episode\/48","https:\/\/rickandmortyapi.com\/api\/episode\/49","https:\/\/rickandmortyapi.com\/api\/episode\/50","https:\/\/rickandmortyapi.com\/api\/episode\/51"],"id":1,"type":"","url":"https:\/\/rickandmortyapi.com\/api\/character\/1","status":"Alive"}
+15:45:34.744 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:34.747 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/99999
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.393 [main] DEBUG com.intuit.karate - response time in milliseconds: 646
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1
+1 < Cache-Status: "Netlify Edge"; fwd=miss
+1 < Content-Length: 31
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:45:35 GMT
+1 < Etag: W/"1f-t9l5xVmJZaPHJIukjZQ7Mw4gpG8"
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRG023FX90WBKM3SXNT0A06
+1 < X-Powered-By: Express
+{"error":"Character not found"}
+15:45:35.414 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.416 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/location/10000
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.709 [main] DEBUG com.intuit.karate - response time in milliseconds: 292
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Age: 0
+1 < Cache-Status: "Netlify Edge"; fwd=miss
+1 < Content-Length: 30
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:45:35 GMT
+1 < Etag: W/"1e-KQLHk60bcEy7DdICzHZFrEmAFio"
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRG02R7AS78WHSZZ0EF2364
+1 < X-Powered-By: Express
+{"error":"Location not found"}
+15:45:35.715 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.717 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/306
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.759 [main] DEBUG com.intuit.karate - response time in milliseconds: 42
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1450
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Length: 522
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:45:35 GMT
+1 < Etag: W/"20a-aOXjVXcsJkOoqMnExiijKqpPXxg"
+1 < Expires: Wed, 06 Dec 2023 18:21:25 GMT
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRG031ZV4WM6V85EY7DWCQW
+1 < X-Powered-By: Express
+{"image":"https:\/\/rickandmortyapi.com\/api\/character\/avatar\/306.jpeg","gender":"Male","species":"Mythological Creature","created":"2018-01-05T14:13:01.564Z","origin":{"name":"Mr. Goldenfold's dream","url":"https:\/\/rickandmortyapi.com\/api\/location\/18"},"name":"Scary Terry","location":{"name":"Mr. Goldenfold's dream","url":"https:\/\/rickandmortyapi.com\/api\/location\/18"},"episode":["https:\/\/rickandmortyapi.com\/api\/episode\/2"],"id":306,"type":"Monster","url":"https:\/\/rickandmortyapi.com\/api\/character\/306","status":"Alive"}
+15:45:35.767 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.768 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/532
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.811 [main] DEBUG com.intuit.karate - response time in milliseconds: 42
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 958
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Length: 477
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:45:35 GMT
+1 < Etag: W/"1dd-BM+YutlhjZNprRX0oZawOBU5BJs"
+1 < Expires: Wed, 06 Dec 2023 18:29:37 GMT
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRG033GJQ992G0KAFKC9J0F
+1 < X-Powered-By: Express
+{"image":"https:\/\/rickandmortyapi.com\/api\/character\/avatar\/532.jpeg","gender":"Female","species":"Alien","created":"2020-05-02T13:45:32.092Z","origin":{"name":"Globaflyn","url":"https:\/\/rickandmortyapi.com\/api\/location\/87"},"name":"Tony\u2019s Wife","location":{"name":"Globaflyn","url":"https:\/\/rickandmortyapi.com\/api\/location\/87"},"episode":["https:\/\/rickandmortyapi.com\/api\/episode\/33"],"id":532,"type":"","url":"https:\/\/rickandmortyapi.com\/api\/character\/532","status":"Dead"}
+15:45:35.820 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.822 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/location/19
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.856 [main] DEBUG com.intuit.karate - response time in milliseconds: 34
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 663
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Length: 189
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:45:36 GMT
+1 < Etag: W/"bd-YiVzAJ2KS+AVlqvlb7UHpSH0sTQ"
+1 < Expires: Wed, 06 Dec 2023 18:34:33 GMT
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRG035111BEZBT7RHMY7XTM
+1 < X-Powered-By: Express
+{"created":"2017-11-18T11:39:52.165Z","name":"Gromflom Prime","residents":[],"id":19,"type":"Planet","dimension":"Replacement Dimension","url":"https:\/\/rickandmortyapi.com\/api\/location\/19"}
