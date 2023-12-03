@@ -126,3 +126,96 @@
 1 < X-Nf-Request-Id: 01HGRD7EMB83Q1WV7F2Y1YDNC4
 1 < X-Powered-By: Express
 {"image":"https:\/\/rickandmortyapi.com\/api\/character\/avatar\/1.jpeg","gender":"Male","species":"Human","created":"2017-11-04T18:48:46.250Z","origin":{"name":"Earth (C-137)","url":"https:\/\/rickandmortyapi.com\/api\/location\/1"},"name":"Rick Sanchez","location":{"name":"Citadel of Ricks","url":"https:\/\/rickandmortyapi.com\/api\/location\/3"},"episode":["https:\/\/rickandmortyapi.com\/api\/episode\/1","https:\/\/rickandmortyapi.com\/api\/episode\/2","https:\/\/rickandmortyapi.com\/api\/episode\/3","https:\/\/rickandmortyapi.com\/api\/episode\/4","https:\/\/rickandmortyapi.com\/api\/episode\/5","https:\/\/rickandmortyapi.com\/api\/episode\/6","https:\/\/rickandmortyapi.com\/api\/episode\/7","https:\/\/rickandmortyapi.com\/api\/episode\/8","https:\/\/rickandmortyapi.com\/api\/episode\/9","https:\/\/rickandmortyapi.com\/api\/episode\/10","https:\/\/rickandmortyapi.com\/api\/episode\/11","https:\/\/rickandmortyapi.com\/api\/episode\/12","https:\/\/rickandmortyapi.com\/api\/episode\/13","https:\/\/rickandmortyapi.com\/api\/episode\/14","https:\/\/rickandmortyapi.com\/api\/episode\/15","https:\/\/rickandmortyapi.com\/api\/episode\/16","https:\/\/rickandmortyapi.com\/api\/episode\/17","https:\/\/rickandmortyapi.com\/api\/episode\/18","https:\/\/rickandmortyapi.com\/api\/episode\/19","https:\/\/rickandmortyapi.com\/api\/episode\/20","https:\/\/rickandmortyapi.com\/api\/episode\/21","https:\/\/rickandmortyapi.com\/api\/episode\/22","https:\/\/rickandmortyapi.com\/api\/episode\/23","https:\/\/rickandmortyapi.com\/api\/episode\/24","https:\/\/rickandmortyapi.com\/api\/episode\/25","https:\/\/rickandmortyapi.com\/api\/episode\/26","https:\/\/rickandmortyapi.com\/api\/episode\/27","https:\/\/rickandmortyapi.com\/api\/episode\/28","https:\/\/rickandmortyapi.com\/api\/episode\/29","https:\/\/rickandmortyapi.com\/api\/episode\/30","https:\/\/rickandmortyapi.com\/api\/episode\/31","https:\/\/rickandmortyapi.com\/api\/episode\/32","https:\/\/rickandmortyapi.com\/api\/episode\/33","https:\/\/rickandmortyapi.com\/api\/episode\/34","https:\/\/rickandmortyapi.com\/api\/episode\/35","https:\/\/rickandmortyapi.com\/api\/episode\/36","https:\/\/rickandmortyapi.com\/api\/episode\/37","https:\/\/rickandmortyapi.com\/api\/episode\/38","https:\/\/rickandmortyapi.com\/api\/episode\/39","https:\/\/rickandmortyapi.com\/api\/episode\/40","https:\/\/rickandmortyapi.com\/api\/episode\/41","https:\/\/rickandmortyapi.com\/api\/episode\/42","https:\/\/rickandmortyapi.com\/api\/episode\/43","https:\/\/rickandmortyapi.com\/api\/episode\/44","https:\/\/rickandmortyapi.com\/api\/episode\/45","https:\/\/rickandmortyapi.com\/api\/episode\/46","https:\/\/rickandmortyapi.com\/api\/episode\/47","https:\/\/rickandmortyapi.com\/api\/episode\/48","https:\/\/rickandmortyapi.com\/api\/episode\/49","https:\/\/rickandmortyapi.com\/api\/episode\/50","https:\/\/rickandmortyapi.com\/api\/episode\/51"],"id":1,"type":"","url":"https:\/\/rickandmortyapi.com\/api\/character\/1","status":"Alive"}
+15:03:43.082 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:03:43.704 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:03:43.920 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/1
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:03:44.162 [main] DEBUG com.intuit.karate - response time in milliseconds: 217
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 249484
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:03:44 GMT
+1 < Etag: W/"a9f-I68Cx5oSPFclkl+Wy2Fr9jNsFS8"
+1 < Expires: Sun, 03 Dec 2023 20:45:40 GMT
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < Vary: Accept-Encoding
+1 < X-Nf-Request-Id: 01HGRDKE82PYTDGZ0ZPZ1QRMY5
+1 < X-Powered-By: Express
+{"image":"https:\/\/rickandmortyapi.com\/api\/character\/avatar\/1.jpeg","gender":"Male","species":"Human","created":"2017-11-04T18:48:46.250Z","origin":{"name":"Earth (C-137)","url":"https:\/\/rickandmortyapi.com\/api\/location\/1"},"name":"Rick Sanchez","location":{"name":"Citadel of Ricks","url":"https:\/\/rickandmortyapi.com\/api\/location\/3"},"episode":["https:\/\/rickandmortyapi.com\/api\/episode\/1","https:\/\/rickandmortyapi.com\/api\/episode\/2","https:\/\/rickandmortyapi.com\/api\/episode\/3","https:\/\/rickandmortyapi.com\/api\/episode\/4","https:\/\/rickandmortyapi.com\/api\/episode\/5","https:\/\/rickandmortyapi.com\/api\/episode\/6","https:\/\/rickandmortyapi.com\/api\/episode\/7","https:\/\/rickandmortyapi.com\/api\/episode\/8","https:\/\/rickandmortyapi.com\/api\/episode\/9","https:\/\/rickandmortyapi.com\/api\/episode\/10","https:\/\/rickandmortyapi.com\/api\/episode\/11","https:\/\/rickandmortyapi.com\/api\/episode\/12","https:\/\/rickandmortyapi.com\/api\/episode\/13","https:\/\/rickandmortyapi.com\/api\/episode\/14","https:\/\/rickandmortyapi.com\/api\/episode\/15","https:\/\/rickandmortyapi.com\/api\/episode\/16","https:\/\/rickandmortyapi.com\/api\/episode\/17","https:\/\/rickandmortyapi.com\/api\/episode\/18","https:\/\/rickandmortyapi.com\/api\/episode\/19","https:\/\/rickandmortyapi.com\/api\/episode\/20","https:\/\/rickandmortyapi.com\/api\/episode\/21","https:\/\/rickandmortyapi.com\/api\/episode\/22","https:\/\/rickandmortyapi.com\/api\/episode\/23","https:\/\/rickandmortyapi.com\/api\/episode\/24","https:\/\/rickandmortyapi.com\/api\/episode\/25","https:\/\/rickandmortyapi.com\/api\/episode\/26","https:\/\/rickandmortyapi.com\/api\/episode\/27","https:\/\/rickandmortyapi.com\/api\/episode\/28","https:\/\/rickandmortyapi.com\/api\/episode\/29","https:\/\/rickandmortyapi.com\/api\/episode\/30","https:\/\/rickandmortyapi.com\/api\/episode\/31","https:\/\/rickandmortyapi.com\/api\/episode\/32","https:\/\/rickandmortyapi.com\/api\/episode\/33","https:\/\/rickandmortyapi.com\/api\/episode\/34","https:\/\/rickandmortyapi.com\/api\/episode\/35","https:\/\/rickandmortyapi.com\/api\/episode\/36","https:\/\/rickandmortyapi.com\/api\/episode\/37","https:\/\/rickandmortyapi.com\/api\/episode\/38","https:\/\/rickandmortyapi.com\/api\/episode\/39","https:\/\/rickandmortyapi.com\/api\/episode\/40","https:\/\/rickandmortyapi.com\/api\/episode\/41","https:\/\/rickandmortyapi.com\/api\/episode\/42","https:\/\/rickandmortyapi.com\/api\/episode\/43","https:\/\/rickandmortyapi.com\/api\/episode\/44","https:\/\/rickandmortyapi.com\/api\/episode\/45","https:\/\/rickandmortyapi.com\/api\/episode\/46","https:\/\/rickandmortyapi.com\/api\/episode\/47","https:\/\/rickandmortyapi.com\/api\/episode\/48","https:\/\/rickandmortyapi.com\/api\/episode\/49","https:\/\/rickandmortyapi.com\/api\/episode\/50","https:\/\/rickandmortyapi.com\/api\/episode\/51"],"id":1,"type":"","url":"https:\/\/rickandmortyapi.com\/api\/character\/1","status":"Alive"}
+15:03:44.181 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:03:44.198 [main] ERROR com.intuit.karate - classpath:Projeto/rickMorty.feature:12
+Given path 'api/character/99999'  # ID de personagem inexistente
+>>>> js failed:
+01: ['api/character/99999'  # ID de personagem inexistente]
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:24 Expected comma but found error
+['api/character/99999'  # ID de personagem inexistente]
+                        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:365)
+- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:82)
+- java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+classpath:Projeto/rickMorty.feature:12
+15:05:16.794 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:05:17.377 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:05:17.584 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/1
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:05:17.803 [main] DEBUG com.intuit.karate - response time in milliseconds: 196
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 162090
+1 < Cache-Control: max-age=259200
+1 < Cache-Status: "Netlify Edge"; hit
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:05:17 GMT
+1 < Etag: W/"a9f-I68Cx5oSPFclkl+Wy2Fr9jNsFS8"
+1 < Expires: Mon, 04 Dec 2023 21:03:47 GMT
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRDP9PER0RE1PAJT9KS8HA2
+1 < X-Powered-By: Express
+{"image":"https:\/\/rickandmortyapi.com\/api\/character\/avatar\/1.jpeg","gender":"Male","species":"Human","created":"2017-11-04T18:48:46.250Z","origin":{"name":"Earth (C-137)","url":"https:\/\/rickandmortyapi.com\/api\/location\/1"},"name":"Rick Sanchez","location":{"name":"Citadel of Ricks","url":"https:\/\/rickandmortyapi.com\/api\/location\/3"},"episode":["https:\/\/rickandmortyapi.com\/api\/episode\/1","https:\/\/rickandmortyapi.com\/api\/episode\/2","https:\/\/rickandmortyapi.com\/api\/episode\/3","https:\/\/rickandmortyapi.com\/api\/episode\/4","https:\/\/rickandmortyapi.com\/api\/episode\/5","https:\/\/rickandmortyapi.com\/api\/episode\/6","https:\/\/rickandmortyapi.com\/api\/episode\/7","https:\/\/rickandmortyapi.com\/api\/episode\/8","https:\/\/rickandmortyapi.com\/api\/episode\/9","https:\/\/rickandmortyapi.com\/api\/episode\/10","https:\/\/rickandmortyapi.com\/api\/episode\/11","https:\/\/rickandmortyapi.com\/api\/episode\/12","https:\/\/rickandmortyapi.com\/api\/episode\/13","https:\/\/rickandmortyapi.com\/api\/episode\/14","https:\/\/rickandmortyapi.com\/api\/episode\/15","https:\/\/rickandmortyapi.com\/api\/episode\/16","https:\/\/rickandmortyapi.com\/api\/episode\/17","https:\/\/rickandmortyapi.com\/api\/episode\/18","https:\/\/rickandmortyapi.com\/api\/episode\/19","https:\/\/rickandmortyapi.com\/api\/episode\/20","https:\/\/rickandmortyapi.com\/api\/episode\/21","https:\/\/rickandmortyapi.com\/api\/episode\/22","https:\/\/rickandmortyapi.com\/api\/episode\/23","https:\/\/rickandmortyapi.com\/api\/episode\/24","https:\/\/rickandmortyapi.com\/api\/episode\/25","https:\/\/rickandmortyapi.com\/api\/episode\/26","https:\/\/rickandmortyapi.com\/api\/episode\/27","https:\/\/rickandmortyapi.com\/api\/episode\/28","https:\/\/rickandmortyapi.com\/api\/episode\/29","https:\/\/rickandmortyapi.com\/api\/episode\/30","https:\/\/rickandmortyapi.com\/api\/episode\/31","https:\/\/rickandmortyapi.com\/api\/episode\/32","https:\/\/rickandmortyapi.com\/api\/episode\/33","https:\/\/rickandmortyapi.com\/api\/episode\/34","https:\/\/rickandmortyapi.com\/api\/episode\/35","https:\/\/rickandmortyapi.com\/api\/episode\/36","https:\/\/rickandmortyapi.com\/api\/episode\/37","https:\/\/rickandmortyapi.com\/api\/episode\/38","https:\/\/rickandmortyapi.com\/api\/episode\/39","https:\/\/rickandmortyapi.com\/api\/episode\/40","https:\/\/rickandmortyapi.com\/api\/episode\/41","https:\/\/rickandmortyapi.com\/api\/episode\/42","https:\/\/rickandmortyapi.com\/api\/episode\/43","https:\/\/rickandmortyapi.com\/api\/episode\/44","https:\/\/rickandmortyapi.com\/api\/episode\/45","https:\/\/rickandmortyapi.com\/api\/episode\/46","https:\/\/rickandmortyapi.com\/api\/episode\/47","https:\/\/rickandmortyapi.com\/api\/episode\/48","https:\/\/rickandmortyapi.com\/api\/episode\/49","https:\/\/rickandmortyapi.com\/api\/episode\/50","https:\/\/rickandmortyapi.com\/api\/episode\/51"],"id":1,"type":"","url":"https:\/\/rickandmortyapi.com\/api\/character\/1","status":"Alive"}
+15:05:17.821 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:05:17.823 [main] DEBUG com.intuit.karate - request:
+1 > GET https://rickandmortyapi.com/api/character/99999
+1 > Host: rickandmortyapi.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:05:18.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 272
+1 < 404
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1
+1 < Cache-Status: "Netlify Edge"; fwd=miss
+1 < Content-Length: 31
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 03 Dec 2023 18:05:18 GMT
+1 < Etag: W/"1f-t9l5xVmJZaPHJIukjZQ7Mw4gpG8"
+1 < Server: Netlify
+1 < Strict-Transport-Security: max-age=31536000
+1 < X-Nf-Request-Id: 01HGRDP9SCED1D20E3RSYE59R8
+1 < X-Powered-By: Express
+{"error":"Character not found"}
