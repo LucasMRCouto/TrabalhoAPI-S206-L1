@@ -17,10 +17,10 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
     R:
   2) Os testes desenvolvidos são manuais ou automatizados?
 
-    R:
+    R: Foram desenvolvidos testes automatizados, 
   3) Onde os testes se localizam na pirâmide apresentada?
 
-    R:
+    R: Esses testes estão localizados na parte de Testes De Integração.
   4) Os testes desenvolvidos são funcionais ou não-funcionais?
 
     R:
