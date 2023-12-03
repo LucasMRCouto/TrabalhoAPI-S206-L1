@@ -9,4 +9,4 @@ Para rodar os testes utilize o comando abaixo no bash onde se encotra o maven.
 mvn test -Dtest=RMRunner
 ```
 ## Visualizando relatorio gerado
-Para visualizar abra o arquivo html do seguinte path "~\projeto_s206\target\karate-reports\Projeto.rickMorty.html"
+Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206\target\karate-reports\Projeto.rickMorty.html".
