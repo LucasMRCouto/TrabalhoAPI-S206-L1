@@ -1,8 +1,8 @@
 # TrabalhoAPI-S206-L1
 
 ## Integrantes:
-  - João Gabriel Azevedo de Carvalho
-  - Lucas Mendes Ribeiro do Couto
+  - João Gabriel Azevedo de Carvalho - 258 - GES
+  - Lucas Mendes Ribeiro do Couto - 256 - GES
 ## Como rodar os testes
 Para rodar os testes utilize o comando abaixo no bash onde se encotra o maven.
 ```bash
