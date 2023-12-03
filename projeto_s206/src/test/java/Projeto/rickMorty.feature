@@ -30,5 +30,5 @@ Scenario: Testando o retorno e verificando o JSON
     Given path 'api/character/532'
     When method get
     Then status 200
-    And match response.name == "Tony's Wife"
+    And match response.name == "Tony’s Wife"
     And match response.id == 532
