@@ -24,6 +24,7 @@ Scenario: Testando o JSON do personagem Scary Terry
     Given path 'api/character/306'
     When method get
     And match response.name == 'Scary Terry'
+    And match response.created == "2018-01-05T14:13:01.564Z"
 
 Scenario: Testando o retorno e verificando o JSON
     Given path 'api/character/532'
