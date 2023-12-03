@@ -20,7 +20,7 @@ Scenario: Tentando obter informacoes de uma localizacao inexistente
     Then status 404
     And match response == {"error":"Location not found"}
 
-Scenario: Teste
+Scenario: Testando o retorno e verificando o JSON
     Given path 'api/character/532'
     When method get
     Then status 200
