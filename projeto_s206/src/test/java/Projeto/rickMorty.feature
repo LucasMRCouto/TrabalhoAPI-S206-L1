@@ -13,3 +13,9 @@ Scenario: Tentar obter informações de um personagem inexistente
     When method get
     Then status 404
     And match response == {"error":"Character not found"}
+
+Scenario: Tentando obter informacoes de uma localizacao inexistente
+    Given path 'api/location/10000'
+    When method get
+    Then status 404
+    And match response == {"error":"Location not found"}
