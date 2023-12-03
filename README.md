@@ -12,5 +12,11 @@ mvn test -Dtest=RMRunner
 Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206\target\karate-reports\Projeto.rickMorty.html".
 
 ## Exercício 2
-- 1) Quantas suítes de testes você desenvolveu? \n
-Foram desenvolvidos 6 casos de teste.
+- 1) Quantas suítes de testes você desenvolveu?
+  2) Os testes desenvolvidos são manuais ou automatizados?
+  3) Onde os testes se localizam na pirâmide apresentada?
+  4) Os testes desenvolvidos são funcionais ou não-funcionais?
+  5) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+  6) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+
+
