@@ -32,3 +32,11 @@ Scenario: Testando o retorno e verificando o JSON
     Then status 200
     And match response.name == "Tony’s Wife"
     And match response.id == 532
+
+Scenario: Testando o JSON de retorno de uma localizacao
+    Given path 'api/location/19'
+    When method get
+    Then status 200
+    And match response.name == "Gromflom Prime"
+    And match response.type == "Planet"
+    And match response.dimension == "Replacement Dimension"
