@@ -26,9 +26,9 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
     R: Os testes desenvolvidos são funcionais, porque testes funcionais confirmam que o sistema faz o que os usuários esperam.
   5) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
 
-    R: Sim, nos casos onde é buscado um personagem ou localização expecífica é considerado um teste E2E.
+    R: Sim, nos casos onde é buscado um personagem ou localização específica é considerado um teste E2E.
   6) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
       
-    R: Para os testes funcionarem em regressao, precisa executar todas as suítes de testes desenvolvidas e já verificadas.
+    R: Para os testes funcionarem em regressão, precisa executar todas as suítes de testes desenvolvidas e já verificadas.
 
 
