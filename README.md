@@ -13,16 +13,22 @@ Para visualizar o relatorio abra o arquivo html do seguinte path "~\projeto_s206
 
 ## Exercício 2
   1) Quantas suítes de testes você desenvolveu?
+     
     R:
-  3) Os testes desenvolvidos são manuais ou automatizados?
+  2) Os testes desenvolvidos são manuais ou automatizados?
+
     R:
-  5) Onde os testes se localizam na pirâmide apresentada?
+  3) Onde os testes se localizam na pirâmide apresentada?
+
     R:
-  7) Os testes desenvolvidos são funcionais ou não-funcionais?
+  4) Os testes desenvolvidos são funcionais ou não-funcionais?
+
     R:
-  9) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+  5) Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+
     R:
-  11) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+  6) O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+      
     R:
 
 
